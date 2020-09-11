@@ -6,9 +6,13 @@
         body{
             padding-top: 1%;
             padding-bottom: 1%;
+            padding-right: 1%;
+            font-family: Arial, Helvetica, sans-serif; 
+
         }
+    
         .welcome {
-         margin-top: 5%; /* Add a top margin to avoid content overlay */
+         margin-top: 3%; /* Add a top margin to avoid content overlay */
          margin-bottom: 1%; 
         }
         .navbar {
@@ -16,7 +20,7 @@
             overflow: hidden;
             position: fixed; /* Set the navbar to fixed position */
             top: 0; /* Position the navbar at the top of the page */
-            width: 100%; /* Full width */
+            width: 99%; /* almost Full width */
         }
         .navbar a {
             float: left;
@@ -32,23 +36,27 @@
         }
 
         .footer {
-        background-color: #333;
-        overflow: hidden;
-        position: fixed; /* Set the navbar to fixed position */
-        bottom: 0; /* Position the navbar at the bottom of the page */
-        width: 100%; /* Full width */
+             background-color: #333;
+             overflow: hidden;
+             position: fixed; /* Set the navbar to fixed position */
+             bottom: 0; /* Position the navbar at the bottom of the page */
+             width: 99%; /* almost Full width */
         }
 
         .footer a {
             float: left;
             color: #f2f2f2;
             text-align: center;
-            padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
         }
         .footer p {
-             color: #f2f2f2;
+            text-align: center;
+            float: left;
+            color: #f2f2f2;
+            padding: 3px 4px;
+            font-size: 13px;
+      
          }           
         .viewport {
              height: 25%;
@@ -68,24 +76,26 @@
         <a href="#footer">Bottom</a>        
     </nav>  
     <section id="welcome-section" class="welcome">
-        <h1>Teemu Tverin</h1>
+        <h1 id="header1">Teemu Tverin</h1>
+        <p>Master of Science (Computer Science), University of Helsinki</p>
    </section id="information-section" class="information">
-        <h2>Systems Specialist</h2>
-            <ul>
-                <li>More than 10 years of experience as System analyst, developer and specialist</li>
-                <li>IoT, CMS, Microsoft 365 / Azure / Server</li>
-                <li>ITIL Foundation 2011</li>
-            </ul>
         <h2>Developer</h2>
             <ul>
                 <li>Java, JavaScript, React.js, Python, HTML5, CSS</li>
                 <li>Certified ScrumMaster</li>
             </ul>
+        <h2>Systems Specialist</h2>
+            <ul>
+                <li>More than 10 years of experience as Systems analyst, developer and specialist</li>
+                <li>IoT, Construction IT, CMS, Microsoft 365 / Azure / Server</li>
+                <li>ITIL Foundation 2011</li>
+            </ul>
+
         <h2>Instructor</h2>
             <ul>
                 <li>Indoor cycling</li>
                 <li>LesMills BodyPump</li>
-                <li>UniSport, Forever..</li>
+                <li>UniSport, Forever</li>
             </ul>
     <section id="projects">
         <h2>Projects</h2>
@@ -99,7 +109,7 @@
     <hr />
     <p>
     <section id="footer" class="footer">
-        <p>(c) Teemu Tverin 2020</p>
+        <p>(C) Teemu Tverin 2020</p>
     </section>
 
 </body>
