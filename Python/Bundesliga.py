@@ -1,4 +1,4 @@
-#Say hello!
+#Say hello! 
 print ("Welcome to Bundesliga team & airport finder!")
 
 teamArray = []
